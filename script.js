@@ -3,6 +3,11 @@ async function foo(){
     const res = await fetch("https://jsonplaceholder.typicode.com/users")
     const result = await res.json();
     console.log(result);
+    
+    const header = document.createElement("h4");
+    header.textContent = "User Data";
+    document.body.append(header);
+    
     for (var i = 0; i < 16; i++) {
       console.log(result[0])
       const div = document.createElement("div");

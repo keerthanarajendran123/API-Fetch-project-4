@@ -7,8 +7,8 @@ body{
      background-color: white !important;
      padding: 30px;
      border: 7px solid black;
-    
  }
+
  .card{
      margin-top: 40px;
      margin-left: 0px;
@@ -25,7 +25,9 @@ h4{
     padding: 10px;
     border: 2px solid rgb(0, 172, 172);
     background-color: rgb(0, 172, 172) ;
-    width: 1335px;
+    width: 300%;
     position: relative;
     top:-30px;
 }
+
+    
